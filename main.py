@@ -66,7 +66,8 @@ for pessoa in lista_de_emails:
     enviar.click()
     print('8) eviei o email')
     enviados.append(pessoa)
-    print(enviados)
+    for p in enviados:
+        print(f'--> {p}')
     print('==========================================')
 
 driver.quit()
